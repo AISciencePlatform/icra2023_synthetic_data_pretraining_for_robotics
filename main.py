@@ -13,8 +13,10 @@ see <https://www.gnu.org/licenses/>.
 import os
 from predict import get_predictions
 
-
 base_path = os.getcwd()
+if not os.path.exists(base_path+'/data'):
+    raise Exception("No data folder found. Download it from https://doi.org/10.5281/zenodo.7860758 ,"
+                    " and unzip the file. ")
 
 input_path = base_path+"/data/validation_images/imgs"
 output_path_unetR = base_path+"/output/UNET_R/"
@@ -26,4 +28,6 @@ model_path_unetS = base_path+"/data/models/UNET_S/unet_sim.pth"
 get_predictions(input_path, output_path_unetR, model_path_unetR)
 get_predictions(input_path, output_path_unetS, model_path_unetS)
 
-print(base_path)
+
+
+
