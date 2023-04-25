@@ -1,4 +1,5 @@
 # icra2023_synthetic_data_pretraining_for_robotics
+![GitHub](https://img.shields.io/github/license/AISciencePlatform/icra2023_synthetic_data_pretraining_for_robotics) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7860758.svg)](https://doi.org/10.5281/zenodo.7860758)
 <img src="https://user-images.githubusercontent.com/23158313/234160232-b9556e11-6797-4233-a4e2-d5eb9d279e8f.png" alt="drawing" width="800"/>
 
 ## Requirements
@@ -22,9 +23,7 @@ pip install -r requirements.txt
 ```shell
 git clone https://github.com/AISciencePlatform/icra2023_synthetic_data_pretraining_for_robotics.git --recursive
 ```
-- Download the datasets from
- 
-  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7860758.svg)](https://doi.org/10.5281/zenodo.7860758)
+-  [Download](https://doi.org/10.5281/zenodo.7860758) the datasets.
 
 - Unzip the file into the folder `icra2023_synthetic_data_pretraining_for_robotics`
  
